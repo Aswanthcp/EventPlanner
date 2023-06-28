@@ -1,0 +1,91 @@
+.top-create {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  color: gray;
+  
+}
+
+.bottom-create {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px 20px;
+  display: flex;
+  max-width: 98%;
+  margin: 10px;
+
+  color: rgba(135, 130, 130, 0.834);
+}
+
+.left-create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15%;
+  }
+}
+
+.right-create {
+  flex: 1;
+}
+
+.create-event-file-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.create-event-icon {
+  margin-left: 5px;
+}
+
+.create-event-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.create-event-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-event-form-input {
+  margin-bottom: 20px;
+}
+
+.create-event-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.create-event-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-control {
+  width: 97%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+}

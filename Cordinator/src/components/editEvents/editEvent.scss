@@ -1,0 +1,80 @@
+.edit-events-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-events-right {
+  flex: 2;
+}
+.left-img {
+  img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15%;
+  }
+}
+
+.edit-events-left img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.edit-events-file-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-events-icon {
+  margin-right: 5px;
+}
+
+.edit-events-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-events-form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-events-form-input label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-events-form-input input,
+.edit-events-form-input textarea,
+.edit-events-form-input select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-events-error {
+  color: red;
+}
+
+.edit-events-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-events-submit-btn:hover {
+  background-color: #0056b3;
+}
